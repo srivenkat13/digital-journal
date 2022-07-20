@@ -19,6 +19,8 @@ function App() {
       <h1>Vite + React</h1>
       <p>
         Testing <code>/dist</code> folder
+        <hr />
+        And now have added a github action to deploy 🚀 on each push
       </p>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
