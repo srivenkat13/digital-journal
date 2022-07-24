@@ -75,4 +75,4 @@ jobs:
 - Once this Action is present it takes care of everthing else.
 
 ----------
-Only difference is in firt way, the code is deployed each time we run the command `npm run deploy` , but in second, when a new commit is added to `main` branch.    
+Only difference is, in first way, the code is deployed each time we run the command `npm run deploy` , but in second, when a new commit is added to `main` branch.    
