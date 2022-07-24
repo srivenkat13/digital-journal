@@ -73,3 +73,26 @@ aside > p {
   font-size: 14px;
   /* line-height: 20px; */
 }
+
+@media (min-width: 320px) {
+  .card--comp {
+    margin: 20px 30px;
+  }
+
+  .location {
+    font-size: smaller;
+  }
+  aside > h1 {
+    font-size: 20px;
+    margin: 4px 0 6px 0;
+  }
+
+  aside > p {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  a {
+    font-size: smaller;
+    line-height: 10px;
+  }
+}
