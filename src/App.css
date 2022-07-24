@@ -45,6 +45,11 @@ body {
 .city {
   text-transform: uppercase;
 }
+.card--comp > img {
+  width: 130px;
+  height: 160px;
+  border-radius: 5px;
+}
 a {
   font-size: 0.8rem;
   text-decoration-line: underline;

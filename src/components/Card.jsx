@@ -1,9 +1,12 @@
-import pin from "/assets/icons/pin.png";
-
+import pin from "/pin.png";
 export default function Card(props) {
   return (
     <div className="card--comp">
-      <img src={`/assets/${props.img}`} alt={props.img} />
+      <img
+        // src={`${process.env.PUBLIC_URL}/assets/${props.img}`}
+        src={props.img}
+        alt={`${props.location}-image`}
+      />
       <aside className="sect">
         <div className="location">
           <img src={pin} alt="pin" />
